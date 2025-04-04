@@ -1,8 +1,8 @@
-Technical Implementation Document: TerraFirma 3D Integration for IoT Rat Trap Monitoring at McDonald's and Starbucks
+Technical Implementation Document: TerraFirma 3D Integration for IoT Rat Trap Monitoring at Mickey D's's and Mug-O-Coffee
 
 # 1. Introduction: Project Overview and Goals
 
-This document outlines the technical implementation plan for integrating data from IoT-enabled rat traps deployed at McDonald's and Starbucks locations into the TerraFirma 3D application. The primary goal is to provide real-time and historical metrics on pest activity, enabling proactive pest management and ensuring a hygienic environment for customers. This system will leverage various Azure services to ingest, process, store, and ultimately present disparate data within the TerraFirma 3D platform.
+This document outlines the technical implementation plan for integrating data from IoT-enabled rat traps deployed at Mickey D's's and Mug-O-Coffee locations into the TerraFirma 3D application. The primary goal is to provide real-time and historical metrics on pest activity, enabling proactive pest management and ensuring a hygienic environment for customers. This system will leverage various Azure services to ingest, process, store, and ultimately present disparate data within the TerraFirma 3D platform.
 
 ## Project Goals:
 
@@ -72,14 +72,14 @@ The diagram above illustrates the complete system architecture, with components 
 
 Each group of components serves a specific purpose in the data flow:
 
-- IoT Rat Trap Vendors: Physical devices deployed across McDonald's and Starbucks locations
+- IoT Rat Trap Vendors: Physical devices deployed across Mickey D's's and Mug-O-Coffee locations
 - Connectivity Layer: Various communication protocols handling device-cloud communication
 - Azure Services: Core processing and transformation infrastructure
 - Applications: Integration layer with the TerraFirma 3D platform
 
 ## Component Descriptions:
 
-IoT Rat Traps (Vendor A & B): These are the physical devices deployed at McDonald's and Starbucks locations that detect and potentially capture rodents. They will transmit data about their status (e.g., trap activation, battery level, sensor readings). Different vendors might use different communication protocols and data formats.
+IoT Rat Traps (Vendor A & B): These are the physical devices deployed at Mickey D's's and Mug-O-Coffee locations that detect and potentially capture rodents. They will transmit data about their status (e.g., trap activation, battery level, sensor readings). Different vendors might use different communication protocols and data formats.
 
 Connectivity: The rat traps will utilize various connectivity options (e.g., cellular, Wi-Fi, LoRaWAN, NB-IoT) to send data to the cloud.
 
@@ -209,4 +209,4 @@ Several opportunities exist for future enhancements:
 
 # 10. Conclusion
 
-Integrating IoT rat trap data into the TerraFirma 3D application using Azure services provides a powerful solution for proactive pest management at McDonald's and Starbucks. The robust ETL pipeline ensures that disparate data can be effectively ingested, transformed, and loaded for both real-time monitoring and historical analysis within the TerraFirma 3D platform. This system will contribute to a more hygienic environment and improved operational efficiency.
+Integrating IoT rat trap data into the TerraFirma 3D application using Azure services provides a powerful solution for proactive pest management at Mickey D's's and Mug-O-Coffee. The robust ETL pipeline ensures that disparate data can be effectively ingested, transformed, and loaded for both real-time monitoring and historical analysis within the TerraFirma 3D platform. This system will contribute to a more hygienic environment and improved operational efficiency.
